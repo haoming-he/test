@@ -1,0 +1,179 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	background-color: #f5f8f9;
+}
+
+.header{
+	width: 100%;
+	background-color: #fff;
+}
+.header-bar{
+	width: 1440px;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-bar-left-logo, .header-bar-right-out,.footer-bar-left-logo{
+	width: 105px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 12px;
+	background-color: #f92525;
+	color: #fff;
+	letter-spacing: 3px;
+}
+
+.header-bar-right{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.header-bar-right-set, .header-bar-right-message{
+	width: 40px;
+	height: 40px;
+	background-color: antiquewhite;
+	font-size: 14px;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.nav{
+	width: 100%;
+	background-color: #fff;
+}
+.nav-bar{
+	width: 1440px;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-bar-left1{
+	font-weight: bolder;
+	font-size: 30px;
+}
+.nav-bar-left2{
+	font-size: 15px;
+	font-weight: normal;
+}
+.nav-bar-right-title{
+	margin: 0 auto;
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+.nav-bar-right-i{
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+    font-weight: bolder;
+	font-size: 13px;
+	text-align: right;
+}
+.nav-bar-right-i{
+	background-color:#fff;
+}
+.tab-bar-1{
+	left: 0;
+}
+
+.tab-bar-2{
+	left: 150px;
+}
+
+.tab-bar-3{
+	left: 300px;
+}
+.tab-bar-4{
+	left: 450px;
+}
+.tab-bar-5{
+	left: 600px;
+}
+.tab-bar{
+	position: absolute;
+	width: 70px;
+	height: 3px;
+	background-color: rgb(83, 82, 82);	
+	transition: all .5s;
+	-moz-transition: all .5s;
+	-webkit-transition: all .5s;
+	-o-transition:all .5s;
+}
+.nav-bar-right-un{
+	position: relative;
+	width: 600px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+
+
+.main{
+	width: 1440px;
+	margin: 100px auto;
+}
+.main-echart{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.echartA{
+	width: 500px;
+	height: 500px;
+}
+.echartB{
+	width: 500px;
+	height: 500px;
+}
+.echartC{
+	width: 500px;
+	height: 500px;
+}
+
+
+
+
+
+.footer{
+	width: 100%;
+	background-color:black;
+	height: 253px;
+}
+.footer-bar{
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-bar-right{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.footer-tab{
+	font-size: 13px;
+	color: #fff;
+	display: flex;
+}
+
+
+table td{
+	
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 30px;
+}
